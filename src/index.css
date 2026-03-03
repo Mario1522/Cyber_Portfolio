@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  body {
+    @apply m-0 p-0 bg-dark-bg text-white font-sans antialiased;
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+
+  html, body {
+    scroll-behavior: smooth;
+  }
+
+
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.5),
+                 0 0 20px rgba(0, 255, 255, 0.3),
+                 0 0 30px rgba(0, 255, 255, 0.2);
+  }
+
+  .text-glow-green {
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.5),
+                 0 0 20px rgba(0, 255, 0, 0.3);
+  }
+
+  .border-glow {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3),
+                inset 0 0 10px rgba(0, 255, 255, 0.1);
+  }
+
+  .border-glow-green {
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.3),
+                inset 0 0 10px rgba(0, 255, 0, 0.1);
+  }
+}
