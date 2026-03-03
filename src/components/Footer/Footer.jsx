@@ -11,7 +11,7 @@ const Footer = () => {
         className="footer-content"
       >
         <p className="footer-text">
-          © 2025 Hassan Musa
+          © 2026 Hassan Musa
         </p>
         <div className="footer-glow"></div>
       </motion.div>
