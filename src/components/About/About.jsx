@@ -15,7 +15,7 @@ const About = () => {
   ];
   const courses = [
     { name: 'CompTIA', fullName: 'Security+' },
-    { name: 'eLearnSecurity', fullName: 'eJPTv1 (Junior Penetration Tester)' },
+    { name: 'INE', fullName: 'eJPTv1 (Junior Penetration Tester)' },
     // { name: 'CISSP', fullName: 'Certified Information Systems Security Professional' },
   ];
   const skills = [
